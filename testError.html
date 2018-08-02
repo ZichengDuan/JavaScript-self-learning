@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>runoob.com</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function testError(){
+			try{
+				adddalert("Welcome Guest");
+			}catch(err){
+				var txt = "错误！\n\n";
+				txt += "错误描述： "	+ (err.message) + "\n\n";
+				alert(txt);
+			}
+		}
+	</script>
+	<input type="button" value="Try!" onclick = "testError()"/>
+</body>
+</html> 
