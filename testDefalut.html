@@ -1,0 +1,28 @@
+<!DOCTYPE>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>ruuuunoob</title>
+</head>
+<body>
+	<p id = "dzc"></p>
+	<button onclick="testDefault()">123</button>
+	<script type="text/javascript">
+		function testDefault(){
+			var d = new Date().getDay();
+			switch(d){
+				case 0 : x = "Sunday";
+				break;
+
+				case 1 : x = "Monday";
+				break;
+
+				default: x = "期待周末";
+	 		}
+
+	 		document.getElementById("dzc").innerHTML = x;
+		}
+	</script>
+</body>
+</html>
